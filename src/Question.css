@@ -1,0 +1,50 @@
+.Question {
+    margin-top: 10px;
+    /* background-color: #282c34; */
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 1vmin);
+    color: #282c34;
+}
+
+.Container {
+    margin-top: 1vmin;
+    margin-bottom: 3vmin;
+    height: 60 vmin;
+    margin: auto;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 45vmin 45vmin;
+    margin-bottom:  30px;
+    margin-top: 25px;
+}
+
+.Target-FV {
+    height: 45vmin;
+}
+
+.Option-box {
+    height: 45vmin;
+    width: 45vmin;
+    background-color: #dee2e9;
+}
+
+.clicked {
+    stroke: red;
+    stroke-width: 1px;
+}
+
+.Question-Title{
+    width: 90vmin;
+    height: 3.5vh;
+    background-color: rgb(143, 149, 198)
+}
+
+
+/* .Question-Text{
+    height: 3vh;
+    margin-bottom: 2vmin;
+} */
